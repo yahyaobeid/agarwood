@@ -1,10 +1,7 @@
-import emailjs from '@emailjs/browser';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import React, { useState } from 'react';
 
-const EMAILJS_SERVICE_ID = 'service_6npyfrc';
-const EMAILJS_TEMPLATE_ID = 'template_ikfclf4';
-const EMAILJS_PUBLIC_KEY = 'TKMPiEW3NZg83ZVTO';
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxqBVrQofYG6x7wCxYi0YtZOzGZ3cFtxv-rJL1Rug3yr1l2phrgGxnJ8XzDDGyq1R-yOw/exec';
 
 const contactItems = [
   {
@@ -39,19 +36,12 @@ export function Contact() {
     e.preventDefault();
     setStatus('sending');
     try {
-      await emailjs.send(
-        EMAILJS_SERVICE_ID,
-        EMAILJS_TEMPLATE_ID,
-        {
-          title: 'Website Inquiry',
-          name: form.name,
-          email: form.email,
-          from_name: form.name,
-          from_email: form.email,
-          message: form.message,
-        },
-        EMAILJS_PUBLIC_KEY,
-      );
+      await fetch(APPS_SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'text/plain' },
+        body: JSON.stringify({ name: form.name, email: form.email, message: form.message }),
+      });
       setStatus('success');
     } catch {
       setStatus('error');

@@ -1,3 +1,4 @@
+import React from 'react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Droplet, Leaf, Award, Heart } from 'lucide-react';
 

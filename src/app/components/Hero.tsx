@@ -1,3 +1,4 @@
+import React from 'react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function Hero() {
@@ -19,7 +20,7 @@ export function Hero() {
           Pure Agarwood Oud Oil
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
-          From our family's estate in China to your home. 
+          From our family's estate in Hainan, China to your home. 
           Authentic, precious, and sustainably sourced.
         </p>
         <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-lg transition-all duration-300 hover:scale-105">
