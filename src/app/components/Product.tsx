@@ -66,9 +66,9 @@ export function Product() {
               utterly unforgettable—a symphony of earthy, sweet, and balsamic notes.
             </p>
             <div className="pt-4">
-              <button className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-3 rounded-lg transition-all duration-300">
+              <a href="#contact" className="inline-block bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-3 rounded-lg transition-all duration-300">
                 Inquire About Our Oil
-              </button>
+              </a>
             </div>
           </div>
         </div>

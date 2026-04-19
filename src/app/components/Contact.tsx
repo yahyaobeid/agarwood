@@ -49,7 +49,7 @@ export function Contact() {
   }
 
   return (
-    <section className="py-24 px-6 bg-primary text-primary-foreground">
+    <section id="contact" className="py-24 px-6 bg-primary text-primary-foreground">
       <div className="max-w-5xl mx-auto">
 
         {/* Header */}

@@ -5,22 +5,22 @@ export function Process() {
     {
       number: '01',
       title: 'Cultivation',
-      description: 'We nurture Agarwood trees on our family estate, allowing them to mature naturally over many years in the fertile Chinese forests.'
+      description: 'We grow Agarwood trees across our family estate, carefully managing spacing, nutrition, and airflow to give each tree the best conditions to mature.'
     },
     {
       number: '02',
-      title: 'Resin Formation',
-      description: 'Through natural processes, the trees develop the precious aromatic resin that transforms the heartwood into valuable agarwood.'
+      title: 'Wounding',
+      description: 'Once the trees have matured, we create precise wounds — holes drilled or saw cuts made into the trunk. The tree responds by producing a dense, aromatic resin to heal itself. This resin is the heart of agarwood.'
     },
     {
       number: '03',
       title: 'Harvesting',
-      description: 'Using sustainable practices and deep knowledge passed through generations, we carefully harvest the resin-rich wood at its peak.'
+      description: 'We wait until the resin has fully saturated the wounded wood before harvesting. Only then is the agarwood rich enough in fragrance compounds to yield a premium oil.'
     },
     {
       number: '04',
-      title: 'Distillation',
-      description: 'The agarwood undergoes traditional steam distillation, a meticulous process that extracts the pure, precious oud oil.'
+      title: 'Steam Distillation',
+      description: 'The harvested wood is placed into a steam distillation vessel. Steam passes through the wood, carrying the aromatic oil with it. As it cools and condenses, the pure oud oil is separated and collected.'
     }
   ];
 
@@ -37,14 +37,22 @@ export function Process() {
           </p>
         </div>
 
-        {/* Process Image */}
-        <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl mb-16">
-          <ImageWithFallback
-            src="https://images.unsplash.com/photo-1681438080729-5c62d90f9416?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZ2Fyd29vZCUyMHJlc2luJTIwdGV4dHVyZXxlbnwxfHx8fDE3NzYzNzgyODR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            alt="Agarwood Resin Texture"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/40 to-transparent"></div>
+        {/* Process Images */}
+        <div className="grid grid-cols-2 gap-4 mb-16">
+          <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
+            <ImageWithFallback
+              src="/Agarwood_wounds.png"
+              alt="Wounded Agarwood tree trunks"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
+            <ImageWithFallback
+              src="/Agarwood_chips.png"
+              alt="Agarwood chips"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </div>
 
         {/* Steps */}

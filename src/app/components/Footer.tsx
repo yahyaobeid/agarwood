@@ -6,7 +6,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl mb-4 text-primary">Family Oud</h3>
+            <h3 className="text-2xl mb-4 text-primary">Cao Agarwood Estate</h3>
             <p className="text-muted-foreground">
               Authentic Agarwood oud oil from our family estate in China. 
               Cultivated with care, distilled with tradition.
@@ -35,7 +35,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-border text-center text-muted-foreground">
-          <p>© 2026 Family Oud. All rights reserved. Preserving tradition, sharing nature's treasure.</p>
+          <p>© 2026 Cao Agarwood Estate. All rights reserved.</p>
         </div>
       </div>
     </footer>

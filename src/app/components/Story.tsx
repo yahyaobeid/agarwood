@@ -13,21 +13,21 @@ export function Story() {
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
-                For generations, our family has cultivated the sacred Agarwood trees 
-                in the lush forests of China. These ancient trees, also known as 
-                Aquilaria, produce one of the world's most precious natural fragrances.
+                Our family tends to a large estate of Agarwood trees, each one planted
+                and raised with deliberate care. From the beginning, we manage the land
+                to give every tree what it needs — the right spacing to breathe, the
+                right nutrition to grow strong, and the right conditions to develop slowly.
               </p>
               <p>
-                When the Agarwood tree is infected by a specific mold, it produces a 
-                dark, aromatic resin as a defense mechanism. This resin, aged over many 
-                years, becomes the precious oud oil that has been treasured in cultures 
-                across Asia and the Middle East for millennia.
+                There is no shortcut to raising a quality Agarwood tree. It takes years
+                of attention before a tree is ready, and that investment of time is
+                something we take seriously. We watch each tree closely, adjusting as
+                needed through the seasons.
               </p>
               <p>
-                We carefully harvest and distill this resin using traditional methods 
-                passed down through our family, ensuring the highest quality and purity. 
-                Each bottle represents years of patient cultivation and masterful 
-                craftsmanship.
+                For us, the estate isn't just a farm — it's the foundation everything
+                else is built on. The quality of what ends up in the bottle starts here,
+                in the soil and the care we put into every tree long before harvest.
               </p>
             </div>
           </div>
@@ -35,8 +35,8 @@ export function Story() {
           {/* Image */}
           <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1486707471592-8e7eb7e36f78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaXN0eSUyMGdyZWVuJTIwZm9yZXN0JTIwY2hpbmF8ZW58MXx8fHwxNzc2Mzc4Mjg3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-              alt="Misty Chinese Forest"
+              src="/agarwood-estate-dark.jpg"
+              alt="Agarwood trees on our family estate"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
