@@ -3,7 +3,7 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 
 export function Story() {
   return (
-    <section className="py-24 px-6 bg-card">
+    <section id="our-story" className="py-24 px-6 bg-card">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Text Content */}

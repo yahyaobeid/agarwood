@@ -23,7 +23,10 @@ export function Hero() {
           From our family's estate in Hainan, China to your home. 
           Authentic, precious, and sustainably sourced.
         </p>
-        <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-lg transition-all duration-300 hover:scale-105">
+        <button
+          onClick={() => document.getElementById('our-story')?.scrollIntoView({ behavior: 'smooth' })}
+          className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 rounded-lg transition-all duration-300 hover:scale-105"
+        >
           Discover Our Story
         </button>
       </div>
