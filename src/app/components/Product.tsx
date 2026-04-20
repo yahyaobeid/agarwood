@@ -44,8 +44,8 @@ export function Product() {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div className="relative h-[600px] rounded-2xl overflow-hidden shadow-2xl">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1738414808975-201966230c59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvdWQlMjBvaWwlMjBib3R0bGUlMjBsdXh1cnl8ZW58MXx8fHwxNzc2Mzc4MjgzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-              alt="Pure agarwood oud oil bottle — premium luxury fragrance from Hainan, China"
+              src="/product_bottle.jpeg"
+              alt="Xuan Tan Jing pure oud oil — 100% pure agarwood oil, steam distilled, no additives, undiluted"
               className="w-full h-full object-cover"
             />
           </div>

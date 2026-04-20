@@ -9,8 +9,8 @@ export default function App() {
   return (
     <div className="size-full">
       <Hero />
-      <Story />
       <Product />
+      <Story />
       <Process />
       <Contact />
       <Footer />
