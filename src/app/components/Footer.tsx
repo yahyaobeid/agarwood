@@ -8,7 +8,7 @@ export function Footer() {
           <div className="text-center">
             <h3 className="text-2xl mb-4 text-primary">Cao Agarwood Estate</h3>
             <p className="text-muted-foreground">
-              Authentic Agarwood oud oil from our family estate in China. 
+              Authentic Agarwood oud oil from our family estate in Hainan, China. 
               Cultivated with care, distilled with tradition.
             </p>
           </div>
