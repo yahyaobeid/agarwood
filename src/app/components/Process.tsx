@@ -42,14 +42,14 @@ export function Process() {
           <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
             <ImageWithFallback
               src="/Agarwood_wounds.png"
-              alt="Wounded Agarwood tree trunks"
+              alt="Wounded agarwood tree trunks producing fragrant resin for oud oil extraction"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
             <ImageWithFallback
               src="/Agarwood_chips.png"
-              alt="Agarwood chips"
+              alt="Harvested agarwood chips ready for steam distillation into oud oil"
               className="w-full h-full object-cover"
             />
           </div>

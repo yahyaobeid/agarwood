@@ -8,7 +8,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <ImageWithFallback
           src="https://images.unsplash.com/photo-1565950307432-07ec524a0c51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZ2Fyd29vZCUyMGZvcmVzdCUyMHRyZWUlMjB0cnVuayUyMGRhcmt8ZW58MXx8fHwxNzc2Mzc4MjgzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-          alt="Agarwood Forest"
+          alt="Agarwood forest in Hainan, China — Cao Agarwood Estates"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-background"></div>
